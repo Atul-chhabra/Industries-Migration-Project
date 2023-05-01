@@ -1,0 +1,14 @@
+Name: ComponentMigration
+ignoreDependencies: false
+VlocityDataPackKeys:
+    - CpqConfigurationSetup/CPQ Cart Preview Modal Use API
+    - CpqConfigurationSetup/CPQ Toast Message Log Level
+    - CpqConfigurationSetup/CpqCachePvtKey
+    - CpqConfigurationSetup/CpqNextPricingPlan
+    - OmniScript/CPQ_AssetViewerOrderFlow_Multi-Language
+    - flexipages/DefaultAccountESMRecordPage1.flexipage
+VlocityTypesToFetch:
+    - CpqConfigurationSetup
+    - OmniScript
+SalesforceTypesToFetch:
+    - FlexiPage

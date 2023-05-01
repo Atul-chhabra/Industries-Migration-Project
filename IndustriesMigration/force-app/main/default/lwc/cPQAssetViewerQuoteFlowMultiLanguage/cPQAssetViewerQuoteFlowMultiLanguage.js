@@ -2,14 +2,14 @@ import { api, track } from 'lwc';
 import OmniscriptHeader from 'vlocity_cmt/omniscriptHeader';
 import { isOffPlatform, setConnection, getConnection } from 'vlocity_cmt/omniscriptRestApi';
 import { RUN_MODES, registerNs } from 'vlocity_cmt/omniscriptInternalUtils';
-import { OMNIDEF } from './multiSiteQuoteOrderFlowMultiLanguage_def.js';
-import tmpl from './multiSiteQuoteOrderFlowMultiLanguage.html';
-import tmpl_nds from './multiSiteQuoteOrderFlowMultiLanguage_nds.html';
+import { OMNIDEF } from './cPQAssetViewerQuoteFlowMultiLanguage_def.js';
+import tmpl from './cPQAssetViewerQuoteFlowMultiLanguage.html';
+import tmpl_nds from './cPQAssetViewerQuoteFlowMultiLanguage_nds.html';
 
 /**
  *  IMPORTANT! Generated class DO NOT MODIFY
  */
-export default class multiSiteQuoteOrderFlowMultiLanguage extends OmniscriptHeader {
+export default class cPQAssetViewerQuoteFlowMultiLanguage extends OmniscriptHeader {
     @track jsonDef = {};
     @track resume = false;
     @api get inline() {

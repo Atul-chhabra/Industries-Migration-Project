@@ -5,10 +5,44 @@ VlocityDataPackKeys:
     - CpqConfigurationSetup/CPQ Toast Message Log Level
     - CpqConfigurationSetup/CpqCachePvtKey
     - CpqConfigurationSetup/CpqNextPricingPlan
+    - DataRaptor/CPQCreateOpportunity
+    - DataRaptor/CPQGetGroupsToCreateList
+    - DataRaptor/CPQGetProductsFromAssets
+    - DataRaptor/cpqGetRecordType
+    - DataRaptor/CreateOrderRequestData
+    - DataRaptor/CreateQuoteRequestData
+    - DataRaptor/GetAccountFromAsset
+    - DataRaptor/GetExistingAssetsFromOrderItem
+    - DataRaptor/UpdateOrderAccount
+    - IntegrationProcedure/CPQ_CreateOrder
+    - IntegrationProcedure/CPQ_StartBulkCreateGroups
     - OmniScript/CPQ_AssetViewerOrderFlow_Multi-Language
+    - OmniScript/CPQ_ChangeToOrder_Multi-Language
+    - OmniScript/CPQ_SingleMove_Multi-Language
     - flexipages/DefaultAccountESMRecordPage1.flexipage
+    - flexipages/Vlocity_Enterprise_Sales_App_UtilityBar.flexipage
+    - lwc/cfCpqAdvancedSearchLineItem
+    - lwc/cfCpqAssetViewerAdvancedSearch
+    - lwc/cfCpqAssetViewerChildLineItem
+    - lwc/cfCpqAssetViewerContainer
+    - lwc/cfCpqAssetViewerGroupLineItems
+    - lwc/cfCpqAssetViewerLineItem
+    - lwc/cfCpqAssetViewerSelectAllAssets
+    - lwc/cfCpqCartInlineChildPromoForAssetViewer
+    - lwc/cfCpqCartInlinePromoForAssetViewer
+    - lwc/cfCpqPromotionDetailViewForAssetViewer
+    - lwc/cfCpqSpinner
+    - lwc/cPQAssetViewerOrderFlowMultiLanguage
+    - lwc/cPQAssetViewerQuoteFlowMultiLanguage
+    - profiles/Admin.profile
+    - VlocityCard/cpqAssetViewerContainer
 VlocityTypesToFetch:
     - CpqConfigurationSetup
+    - DataRaptor
+    - IntegrationProcedure
     - OmniScript
+    - VlocityCard
 SalesforceTypesToFetch:
     - FlexiPage
+    - LightningComponentBundle
+    - Profile

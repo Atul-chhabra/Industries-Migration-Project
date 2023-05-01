@@ -6,7 +6,7 @@ VlocityDataPackKeys:
     - CpqConfigurationSetup/CpqCachePvtKey
     - CpqConfigurationSetup/CpqNextPricingPlan
     - OmniScript/CPQ_AssetViewerOrderFlow_Multi-Language
-    - flexipages/Vlocity_Enterprise_Sales_App_UtilityBar.flexipage
+    - flexipages/DefaultAccountESMRecordPage1.flexipage
 VlocityTypesToFetch:
     - CpqConfigurationSetup
     - OmniScript
